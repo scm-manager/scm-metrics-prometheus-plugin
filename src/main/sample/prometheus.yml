@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+- job_name: 'scm-manager'
+  static_configs:
+  - targets: [ 'host.docker.internal:8081' ]
+  metrics_path: '/scm/api/v2/metrics/prometheus'
+  basic_auth:
+    username: 'scmadmin'
+    password: 'scmadmin'
