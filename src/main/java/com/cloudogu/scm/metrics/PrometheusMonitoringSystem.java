@@ -40,13 +40,13 @@ import java.util.Optional;
 public class PrometheusMonitoringSystem implements MonitoringSystem {
 
   @VisibleForTesting
-  public static final String TYPE = "prometheus";
+  static final String NAME = "prometheus";
 
   private final PrometheusMeterRegistry registry = new PrometheusMeterRegistry(PrometheusConfig.DEFAULT);
 
   @Override
-  public String getType() {
-    return TYPE;
+  public String getName() {
+    return NAME;
   }
 
   @Override

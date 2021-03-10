@@ -33,9 +33,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 class PrometheusMonitoringSystemTest {
 
   @Test
-  void shouldReturnType() {
+  void shouldReturnName() {
     PrometheusMonitoringSystem system = new PrometheusMonitoringSystem();
-    assertThat(system.getType()).isEqualTo(PrometheusMonitoringSystem.TYPE);
+    assertThat(system.getName()).isEqualTo(PrometheusMonitoringSystem.NAME);
   }
 
   @Test
