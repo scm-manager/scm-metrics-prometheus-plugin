@@ -8,7 +8,7 @@ In SCM Manager, many components collect metrics that provide useful information 
 
 # Usage
 
-To configure Prometheus for use with the plugin, the endpoint must be made known to Prometheus. This can be done either via one of Prometheus's service discovery mechanisms or via the Static configuration in `prometheus.yml`. In the following we show the configuration using the static configuration. For more information on Prometheus configuration, have a look at the [Prometheus Documentation](https://prometheus.io/docs/prometheus/latest/configuration/configuration/).
+To configure Prometheus for use with the plugin, the endpoint must be made known to Prometheus. This can be done either via one of Prometheus's service discovery mechanisms or via the static configuration in `prometheus.yml`. In the following we show the configuration using the static configuration. For more information on Prometheus configuration, have a look at the [Prometheus Documentation](https://prometheus.io/docs/prometheus/latest/configuration/configuration/).
 
 ## Static configuration
 

@@ -9,7 +9,7 @@ In SCM-Manager sammeln viele Komponenten Metriken, die nützliche Informationen 
 
 # Nutzung
 
-Um Prometheus für die Nutzung mit dem Plugin zu konfigurieren, muss der Endpunkt Prometheus bekannt gemacht werden. Das kann entweder über einen der Service Discovery Mechanismen von Prometheus geschehen oder über die Statische Konfiguration in der `prometheus.yml`. Im folgenden zeigen wir die Konfiguration anHand der statischen Konfiguration. Für mehr Informationen zur Prometheus Konfiguration:
+Um Prometheus für die Nutzung mit dem Plugin zu konfigurieren, muss der Endpunkt Prometheus bekannt gemacht werden. Das kann entweder über einen der Service Discovery Mechanismen von Prometheus geschehen oder über die statische Konfiguration in der `prometheus.yml`. Im folgenden zeigen wir die Konfiguration anhand der statischen Konfiguration. Für mehr Informationen zur Prometheus Konfiguration:
 
 * [Prometheus Dokumentation](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
 
