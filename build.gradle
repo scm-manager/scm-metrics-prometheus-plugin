@@ -37,4 +37,5 @@ scmPlugin {
   description = "Provide SCM-Manager Metrics for Prometheus"
   author = "Sebastian Sdorra"
   category = "Administration"
+  avatarUrl = '/images/metrics-prometheus-logo.png'
 }
