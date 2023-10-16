@@ -18,7 +18,7 @@ scrape_configs:
   static_configs:
   - targets: [ 'scm.hitchhiker.com:8080' ]
   scheme: http
-  metrics_path: '/scm/api/v2/metrics/prometheus' ]
+  metrics_path: '/scm/api/v2/metrics/prometheus'
   basic_auth:
     username: 'prometheus'
     password: 'secretPwd4Prometheus'
