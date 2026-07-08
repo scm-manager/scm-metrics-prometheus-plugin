@@ -23,7 +23,7 @@ dependencies {
 }
 
 scmPlugin {
-  scmVersion = "2.15.0"
+  scmVersion = "3.0.0"
   isScm4Compatible = true
   displayName = "Prometheus Metrics"
   description = "Provide SCM-Manager Metrics for Prometheus"
