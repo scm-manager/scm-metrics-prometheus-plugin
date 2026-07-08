@@ -15,7 +15,7 @@
  */
 
 plugins {
-  id 'org.scm-manager.smp' version '0.17.1'
+  id 'org.scm-manager.smp' version '0.20.0'
 }
 
 dependencies {
@@ -24,6 +24,7 @@ dependencies {
 
 scmPlugin {
   scmVersion = "2.15.0"
+  isScm4Compatible = true
   displayName = "Prometheus Metrics"
   description = "Provide SCM-Manager Metrics for Prometheus"
   author = "Sebastian Sdorra"
